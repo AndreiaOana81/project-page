@@ -7,4 +7,53 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.top-section header {
+  height: 15vh;
+  background-color: #A9B3D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-section header button {
+  border: none;
+  background-color: #A9B3D6;
+}
+
+.top-section header button:first-child {
+  margin-left: 15px;
+}
+
+.top-section header div button {
+  margin-right: 30px;
+}
+
+.top-section .search-section {
+  height: 10vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(#e5e5e5));
+  background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, #e5e5e5 100%);
+}
+
+.top-section .search-section button {
+  display: inline-block;
+  border: none;
+  background: transparent;
+  vertical-align: middle;
+}
+
+.top-section .search-section input[type=text] {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */
