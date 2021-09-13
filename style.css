@@ -40,7 +40,6 @@ body {
 }
 
 .top-section .search-section {
-  height: 10vh;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(white));
   background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, white 100%);
   padding: 1rem 7rem;
@@ -69,5 +68,13 @@ body {
   border-radius: 10px;
   background: white;
   cursor: pointer;
+}
+
+.top-section .search-section .brand-description {
+  margin-left: 3rem;
+}
+
+.top-section .search-section .brand-description p {
+  color: #4A6842;
 }
 /*# sourceMappingURL=style.css.map */
