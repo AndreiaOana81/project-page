@@ -1,3 +1,7 @@
+html {
+  font-size: 15px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24,36 +28,46 @@ body {
 
 .top-section header button {
   border: none;
-  background-color: #A9B3D6;
+  background: transparent;
 }
 
 .top-section header button:first-child {
-  margin-left: 15px;
+  margin-left: 1rem;
 }
 
 .top-section header div button {
-  margin-right: 30px;
+  margin-right: 2rem;
 }
 
 .top-section .search-section {
   height: 10vh;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(#e5e5e5));
-  background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, #e5e5e5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(white));
+  background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, white 100%);
+  padding: 1rem 7rem;
 }
 
-.top-section .search-section button {
-  display: inline-block;
+.top-section .search-section .search-bar {
+  border: 2px solid #4A6842;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.top-section .search-section .search-bar input[type=text] {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 1rem;
+}
+
+.top-section .search-section .search-bar button {
   border: none;
-  background: transparent;
-  vertical-align: middle;
-}
-
-.top-section .search-section input[type=text] {
-  width: 70%;
-  margin-left: 10%;
-  margin-top: 5%;
-  border: 2px solid black;
-  border-radius: 8px;
-  font-size: 20px;
+  border-radius: 10px;
+  background: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
