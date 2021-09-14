@@ -56,7 +56,7 @@
 main {
     .new-products, .top-picks, .recently-seen {
         text-align: center;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         div {
             display:flex;
             justify-content: space-evenly;
@@ -82,4 +82,36 @@ main {
         }
 
     }
+}
+footer {
+    background-image: url("/pictures/footer-flower.jpg");
+    background-position: bottom right;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                list-style-type: none;
+                a {
+                    //text-decoration: none;
+                    color: $border-color;
+                
+                }
+            }
+
+        }
+        
+    }
+    div {
+        a {
+            margin-right: 0.5rem;
+            text-decoration: none;
+            
+        }
+    }
+    
 }

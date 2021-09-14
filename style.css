@@ -80,7 +80,7 @@ body {
 
 main .new-products, main .top-picks, main .recently-seen {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 main .new-products div, main .top-picks div, main .recently-seen div {
@@ -114,5 +114,35 @@ main .new-products div article, main .top-picks div article, main .recently-seen
 main .new-products div a img, main .top-picks div a img, main .recently-seen div a img {
   width: 100px;
   height: 150px;
+}
+
+footer {
+  background-image: url("/pictures/footer-flower.jpg");
+  background-position: bottom right;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  color: #4A6842;
+}
+
+footer div a {
+  margin-right: 0.5rem;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
