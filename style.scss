@@ -54,7 +54,9 @@
     }
 }
 main {
-    .new-products {
+    .new-products, .top-picks, .recently-seen {
+        text-align: center;
+        margin-bottom: 2rem;
         div {
             display:flex;
             justify-content: space-evenly;

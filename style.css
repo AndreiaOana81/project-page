@@ -78,7 +78,12 @@ body {
   color: #4A6842;
 }
 
-main .new-products div {
+main .new-products, main .top-picks, main .recently-seen {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main .new-products div, main .top-picks div, main .recently-seen div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,7 +92,7 @@ main .new-products div {
           justify-content: space-evenly;
 }
 
-main .new-products div article {
+main .new-products div article, main .top-picks div article, main .recently-seen div article {
   -webkit-box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
           box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
   padding: 8px;
@@ -106,7 +111,7 @@ main .new-products div article {
           align-items: center;
 }
 
-main .new-products div a img {
+main .new-products div a img, main .top-picks div a img, main .recently-seen div a img {
   width: 100px;
   height: 150px;
 }
