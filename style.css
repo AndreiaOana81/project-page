@@ -77,4 +77,37 @@ body {
 .top-section .search-section .brand-description p {
   color: #4A6842;
 }
+
+main .new-products div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .new-products div article {
+  -webkit-box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
+          box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .new-products div a img {
+  width: 100px;
+  height: 150px;
+}
 /*# sourceMappingURL=style.css.map */
