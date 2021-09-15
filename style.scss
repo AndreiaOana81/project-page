@@ -65,17 +65,32 @@ main {
                 //border: 1px solid grey;
                 box-shadow: 0.5rem 0.5rem  .4rem $main-color, -0.5rem -0.2rem .4rem $main-color;
                 //margin: 20px;
-                padding: 8px;
+                padding: 10px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-            }
-            a {
-                //padding: 8px;
-                img {
-                    width:100px;
-                    height:150px;
+                a {
+                    //padding: 8px;
+                    text-decoration: none;
+                    color: $border-color;
+                    img {
+                        width:150px;
+                        height:200px;
+                    }
+                }
+                button {
+                    cursor: pointer;
+                    background-color: $body-color;
+                    width: 80%;
+                    h5 {
+                        margin:0;
+                        display: inline-block;
+                    }
+                    img {
+                        width: 20px;
+                        height: 15px;
+                    }
                 }
             }
             
