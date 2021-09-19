@@ -79,17 +79,24 @@ main {
                         height:200px;
                     }
                 }
-                button {
-                    cursor: pointer;
-                    background-color: $body-color;
-                    width: 80%;
-                    h5 {
-                        margin:0;
-                        display: inline-block;
-                    }
-                    img {
-                        width: 20px;
-                        height: 15px;
+                .bottom-section {
+                    width: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    button {
+                        cursor: pointer;
+                        background-color: $body-color;
+                        width: 100%;
+                        p {
+                            margin:0;
+                            display: inline-block;
+                        }
+                        img {
+                            width: 20px;
+                            height: 15px;
+                        }
                     }
                 }
             }
@@ -99,7 +106,7 @@ main {
     }
 }
 footer {
-    background-image: url("/pictures/footer-flower.jpg");
+    background-image: url("/project-page/pictures/footer-flower.jpg");
     background-position: bottom right;
     padding: 3rem;
     display: flex;

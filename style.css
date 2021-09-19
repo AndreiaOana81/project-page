@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
 html {
   font-size: 15px;
+}
+
+html body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+  font-weight: 500;
 }
 
 * {
@@ -121,24 +131,41 @@ main .new-products div article a img, main .top-picks div article a img, main .r
   height: 200px;
 }
 
-main .new-products div article button, main .top-picks div article button, main .recently-seen div article button {
-  cursor: pointer;
-  background-color: white;
-  width: 80%;
+main .new-products div article .bottom-section, main .top-picks div article .bottom-section, main .recently-seen div article .bottom-section {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-main .new-products div article button h5, main .top-picks div article button h5, main .recently-seen div article button h5 {
+main .new-products div article .bottom-section button, main .top-picks div article .bottom-section button, main .recently-seen div article .bottom-section button {
+  cursor: pointer;
+  background-color: white;
+  width: 100%;
+}
+
+main .new-products div article .bottom-section button p, main .top-picks div article .bottom-section button p, main .recently-seen div article .bottom-section button p {
   margin: 0;
   display: inline-block;
 }
 
-main .new-products div article button img, main .top-picks div article button img, main .recently-seen div article button img {
+main .new-products div article .bottom-section button img, main .top-picks div article .bottom-section button img, main .recently-seen div article .bottom-section button img {
   width: 20px;
   height: 15px;
 }
 
 footer {
-  background-image: url("/pictures/footer-flower.jpg");
+  background-image: url("/project-page/pictures/footer-flower.jpg");
   background-position: bottom right;
   padding: 3rem;
   display: -webkit-box;
