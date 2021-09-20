@@ -62,10 +62,7 @@ main {
             justify-content: space-evenly;
             //align-items: center;
             article {
-                //border: 1px solid grey;
                 box-shadow: 0.5rem 0.5rem  .4rem $main-color, -0.5rem -0.2rem .4rem $main-color;
-                //margin: 20px;
-                padding: 10px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -85,17 +82,22 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    button {
-                        cursor: pointer;
-                        background-color: $body-color;
-                        width: 100%;
-                        p {
-                            margin:0;
-                            display: inline-block;
-                        }
-                        img {
-                            width: 20px;
-                            height: 15px;
+                    color: $border-color;
+                    margin-bottom: 1rem;
+                    form {
+                        button {
+                            cursor: pointer;
+                            background-color: $border-color;
+                            width: 100%;
+                            border-radius: 4px;
+                            span {
+                                margin:0;
+                                color: $body-color;
+                            }
+                            img {
+                                width: 20px;
+                                height: 15px;
+                            }
                         }
                     }
                 }

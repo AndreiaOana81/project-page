@@ -105,7 +105,6 @@ main .new-products div, main .top-picks div, main .recently-seen div {
 main .new-products div article, main .top-picks div article, main .recently-seen div article {
   -webkit-box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
           box-shadow: 0.5rem 0.5rem 0.4rem #A9B3D6, -0.5rem -0.2rem 0.4rem #A9B3D6;
-  padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -146,20 +145,23 @@ main .new-products div article .bottom-section, main .top-picks div article .bot
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #4A6842;
+  margin-bottom: 1rem;
 }
 
-main .new-products div article .bottom-section button, main .top-picks div article .bottom-section button, main .recently-seen div article .bottom-section button {
+main .new-products div article .bottom-section form button, main .top-picks div article .bottom-section form button, main .recently-seen div article .bottom-section form button {
   cursor: pointer;
-  background-color: white;
+  background-color: #4A6842;
   width: 100%;
+  border-radius: 4px;
 }
 
-main .new-products div article .bottom-section button p, main .top-picks div article .bottom-section button p, main .recently-seen div article .bottom-section button p {
+main .new-products div article .bottom-section form button span, main .top-picks div article .bottom-section form button span, main .recently-seen div article .bottom-section form button span {
   margin: 0;
-  display: inline-block;
+  color: white;
 }
 
-main .new-products div article .bottom-section button img, main .top-picks div article .bottom-section button img, main .recently-seen div article .bottom-section button img {
+main .new-products div article .bottom-section form button img, main .top-picks div article .bottom-section form button img, main .recently-seen div article .bottom-section form button img {
   width: 20px;
   height: 15px;
 }
