@@ -56,7 +56,7 @@
 main {
     .new-products, .top-picks, .recently-seen {
         text-align: center;
-        margin-bottom: 3rem;
+        margin-bottom: 4rem;
         div {
             display:flex;
             justify-content: space-evenly;
@@ -108,12 +108,12 @@ main {
     }
 }
 footer {
-    background-image: url("/project-page/pictures/footer-flower.jpg");
-    background-position: bottom right;
+    //background-image: url("/project-page/pictures/footer-flower.jpg");
+    background: $footer-gradient;
+    //background-position: bottom right;
     padding: 3rem;
     display: flex;
     justify-content: space-between;
-
     nav {
         ul {
             margin: 0;
@@ -133,8 +133,7 @@ footer {
     div {
         a {
             margin-right: 0.5rem;
-            text-decoration: none;
-            
+            text-decoration: none; 
         }
     }
     
