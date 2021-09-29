@@ -50,6 +50,24 @@ body {
   margin-right: 2rem;
 }
 
+.top-section header nav {
+  position: absolute;
+  left: 10%;
+  top: 5%;
+  background-color: #A9B3D6;
+  width: 50%;
+  height: 30%;
+}
+
+.top-section header nav ul {
+  line-height: 2;
+}
+
+.top-section header nav ul li {
+  list-style-type: none;
+  color: #4A6842;
+}
+
 .top-section .search-section {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(white));
   background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, white 100%);

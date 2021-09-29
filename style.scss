@@ -19,6 +19,22 @@
         div button {
             margin-right: 2rem;
         }
+        nav {
+            position: absolute;
+            left: 10%;
+            top: 5%;
+            background-color: $main-color;
+            //opacity: 0.9;
+            width: 50%;
+            height: 30%;
+            ul {
+                line-height: 2;
+                li{
+                    list-style-type: none;
+                    color:$border-color;
+                }
+            }
+        }
     }
     .search-section {
         //height: 25vh;
