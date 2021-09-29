@@ -9,17 +9,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        button {
-            border:none;
-            background: transparent;
-        }
-        button:first-child {
-            margin-left: 1rem;
-        }
-        div button {
-            margin-right: 2rem;
-        }
         nav {
+            display: none;
             position: absolute;
             left: 10%;
             top: 5%;
@@ -35,6 +26,22 @@
                 }
             }
         }
+        button {
+            border:none;
+            background: transparent;
+        }
+        &:hover{
+            nav {
+                display: block;
+            }
+        }
+        button:first-child {
+            margin-left: 1rem;
+        }
+        div button {
+            margin-right: 2rem;
+        }
+        
     }
     .search-section {
         //height: 25vh;

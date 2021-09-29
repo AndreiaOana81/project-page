@@ -37,20 +37,8 @@ body {
           align-items: center;
 }
 
-.top-section header button {
-  border: none;
-  background: transparent;
-}
-
-.top-section header button:first-child {
-  margin-left: 1rem;
-}
-
-.top-section header div button {
-  margin-right: 2rem;
-}
-
 .top-section header nav {
+  display: none;
   position: absolute;
   left: 10%;
   top: 5%;
@@ -66,6 +54,23 @@ body {
 .top-section header nav ul li {
   list-style-type: none;
   color: #4A6842;
+}
+
+.top-section header button {
+  border: none;
+  background: transparent;
+}
+
+.top-section header:hover nav {
+  display: block;
+}
+
+.top-section header button:first-child {
+  margin-left: 1rem;
+}
+
+.top-section header div button {
+  margin-right: 2rem;
 }
 
 .top-section .search-section {
