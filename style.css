@@ -37,23 +37,26 @@ body {
           align-items: center;
 }
 
-.top-section header nav {
+.top-section header nav ul {
   display: none;
   position: absolute;
-  left: 10%;
-  top: 5%;
-  background-color: #A9B3D6;
+  left: 2%;
+  top: 2%;
+  background-color: white;
+  opacity: 0.9;
   width: 50%;
   height: 30%;
-}
-
-.top-section header nav ul {
-  line-height: 2;
+  overflow: hidden;
 }
 
 .top-section header nav ul li {
   list-style-type: none;
+  margin-top: 1rem;
+}
+
+.top-section header nav ul li a {
   color: #4A6842;
+  text-decoration: none;
 }
 
 .top-section header button {
@@ -61,7 +64,7 @@ body {
   background: transparent;
 }
 
-.top-section header:hover nav {
+.top-section header:hover nav ul {
   display: block;
 }
 
