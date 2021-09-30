@@ -10,9 +10,7 @@
         justify-content: space-between;
         align-items: center;
         nav {
-           //position: relative;
             .hamburger{
-               // position: absolute;
                margin-left: 50%;
                 cursor:pointer;
                 .line {
@@ -23,18 +21,15 @@
                 }
             }
             .nav-links {
-            //display: none;
             position: absolute;
-            left: 8%;
-            top: 2%;
-            background-color: $body-color;
-           // opacity: 0.9;
+            left: 10%;
+            top: 5%;
+            background-color: $main-color;
+            opacity: 0.9;
             width: 100%;
             height: 100vh;
-            //overflow: hidden;
             clip-path: circle(100px at -13% -10%);
             transition: all 1s ease-out;
-            //transition: height 0.5s;
                 li{
                     list-style-type: none;
                     margin-top: 1rem;
@@ -44,8 +39,8 @@
                     }
                     
                 }
-                .open {
-                    clip-path: circle(500px at -13% -10%);
+                &.open {
+                    clip-path: circle(1200px at -13% -10%);
 
                 }
             }

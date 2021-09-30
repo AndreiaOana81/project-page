@@ -51,9 +51,10 @@ body {
 
 .top-section header nav .nav-links {
   position: absolute;
-  left: 8%;
-  top: 2%;
-  background-color: white;
+  left: 10%;
+  top: 5%;
+  background-color: #A9B3D6;
+  opacity: 0.9;
   width: 100%;
   height: 100vh;
   -webkit-clip-path: circle(100px at -13% -10%);
@@ -72,9 +73,9 @@ body {
   text-decoration: none;
 }
 
-.top-section header nav .nav-links .open {
-  -webkit-clip-path: circle(500px at -13% -10%);
-          clip-path: circle(500px at -13% -10%);
+.top-section header nav .nav-links.open {
+  -webkit-clip-path: circle(1200px at -13% -10%);
+          clip-path: circle(1200px at -13% -10%);
 }
 
 .top-section header button {
