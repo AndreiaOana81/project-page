@@ -9,40 +9,49 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
         nav {
             .hamburger{
-               margin-left: 50%;
-                cursor:pointer;
+                display: none;
+               //margin-left: 50%;
+               // cursor:pointer;
                 .line {
-                    width: 30px;
-                    height: 3px;
-                    background-color: $border-color;
-                    margin: 5px;
+                    display:none
+                  //  width: 30px;
+                  //  height: 3px;
+                   // background-color: $border-color;
+                   // margin: 5px;
                 }
             }
             .nav-links {
-            position: absolute;
-            left: 10%;
-            top: 5%;
-            background-color: $main-color;
-            opacity: 0.9;
-            width: 100%;
-            height: 100vh;
-            clip-path: circle(100px at -13% -10%);
-            transition: all 1s ease-out;
+
+               position: absolute;
+               left: 40%;
+               top: 25%;
+
+            //background-color: $main-color;
+          //  opacity: 0.9;
+           // width: 100%;
+            //height: 100vh;
+            //clip-path: circle(100px at -13% -10%);
+           // transition: all 1s ease-out;
                 li{
                     list-style-type: none;
+                    display: inline-block;
                     margin-top: 1rem;
+                    &:not(:last-child) {
+                       padding-right: 45px;
+                    }
                     a {
                         color:$border-color;
                         text-decoration:none;
                     }
                     
                 }
-                &.open {
-                    clip-path: circle(1200px at -13% -10%);
+               // &.open {
+               //     clip-path: circle(1200px at -13% -10%);
 
-                }
+               // }
             }
         }
         button {
@@ -91,6 +100,9 @@
         
     }
 }
+//@media screen and (max-width: 767px){
+        
+//}
 main {
     .new-products, .top-picks, .recently-seen {
         h1{
@@ -101,11 +113,11 @@ main {
         }
         margin-bottom: 4rem;
         div {
-            width: 90vw;
+            width: 80vw;
             margin: 0 auto;
             max-width: 1170px;
             display:grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(263px, 1fr));
             grid-column-gap: 1rem;
             grid-row-gap: 2rem;
             //align-items: center;
@@ -116,10 +128,6 @@ main {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                &:hover {
-                    background-color: $main-color;
-                    opacity: 0.5;
-                }
                 a {
                     //padding: 8px;
                     text-decoration: none;
@@ -148,22 +156,20 @@ main {
                             background-color: $border-color;
                             width: 100%;
                             border-radius: 4px;
-                            transition: all 2s;
+                            //transition: all 1s;
                             span {
                                 margin:0;
                                 color: $body-color;
                                 text-transform: capitalize;
+                                font-weight: bold;
                             }
                             img {
                                 width: 20px;
                                 height: 15px;
                             }
                             &:hover {
-                                span{
-                                    color: plum;
-                                    height: 100%;
-                                    font-weight: bold;
-                                }
+                                background-color: $main-color;
+                                border-color: $main-color;
                             }
                         }
                     }   
