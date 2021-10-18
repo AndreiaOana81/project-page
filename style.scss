@@ -75,40 +75,60 @@
             border:none;
             background: transparent;
         }
+        .cart-account {
+            margin-right: 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cart {
+                cursor:pointer;
+                margin-right: 2rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    text-transform: capitalize;
+                    color: $border-color;
+                }
+            }
+            .account {
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span {
+                    text-transform: capitalize;
+                    color: $border-color;
+                }
+            }
+        }
         
     }
-    .search-section {
-        height: 40%;
-        //background: $header-gradient;
-        width: 40%;
-        padding: 1rem 7rem;
-        .search-bar {
+    .topsec-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .search-section {
+            height: 20%;
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             border: 2px solid $border-color;
-            display:flex;
             border-radius: 10px;
-            background-color: $body-color;
-            height: 80%;
-            input[type=text] {
+            .search-bar {
+                border: none;
                 flex-grow: 1;
-                border:0;
-                border-radius: 10px;
-                padding: 0 1rem;    
+                padding: 0 1rem;
+                outline: none;
             }
             .search-btn {
-                border: none;
-                border-radius: 10px;
-                background: $body-color;
-                cursor: pointer;
+                    border: none;
+                    margin: 0.3rem;
+                    background: $body-color;
+                    cursor: pointer;
             }
         }
-        .brand-description {
-            margin-left: 3rem;
-            p {
-                color: $border-color;
-            }
-            
-        }
-        
     }
        
 }
