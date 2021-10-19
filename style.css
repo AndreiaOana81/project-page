@@ -300,6 +300,24 @@ footer {
           justify-content: space-between;
 }
 
+footer .footer-logo img {
+  height: 15vh;
+  width: 15vw;
+}
+
+footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
 footer nav ul {
   margin: 0;
   padding: 0;
@@ -307,6 +325,7 @@ footer nav ul {
 
 footer nav ul li {
   list-style-type: none;
+  margin-bottom: 0.3rem;
 }
 
 footer nav ul li a {
@@ -314,7 +333,7 @@ footer nav ul li a {
 }
 
 footer div a {
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
   text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
