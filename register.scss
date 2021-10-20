@@ -1,0 +1,65 @@
+@import "colors";
+@import "typography";
+@import "reset";
+header {
+    height: 25vh; 
+    background: $header-gradient;
+    a {
+        img {
+            height: 15vh;
+            width: 15vw;
+            margin-top: 4%;
+        }
+    }
+}
+main {
+    height: 50vh;
+    .form-box {
+        background-color: honeydew;
+        width: 380px;
+        height: 480px;
+        position: relative;
+        margin: 6% auto;
+        padding: 5px;
+        .button-box {
+            width: 220px;
+            margin: 35px auto;
+            position: relative;
+            box-shadow: 0 0  20px 9px #ff61241f;
+            border-radius: 30px;
+            .btn {
+                top: 0;
+                left: 0;
+                position: absolute;
+                width: 110px;
+                height: 100%;
+                border-radius: 30px;
+                background: $button-gradient;
+                transition: .5s;
+            }
+            .toggle-btn {
+                padding: 10px 30px;
+                cursor: pointer;
+                background: transparent;
+                border: 0;
+                outline: none;
+                position: relative;
+                color: $border-color;
+
+            }
+
+        }
+
+    }
+
+}
+footer {
+    background: $footer-gradient;
+    height: 20vh;
+    img {
+        height: 15vh;
+        width: 15vw;
+        margin: 2% 1%;
+
+    }
+}

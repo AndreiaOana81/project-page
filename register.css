@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+html {
+  font-size: 15px;
+}
+
+html body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+  font-weight: 500;
+  color: #4A6842;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 25vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #a9b3d6), color-stop(80%, #c2cffc), to(white));
+  background: linear-gradient(180deg, #a9b3d6 1%, #c2cffc 80%, white 100%);
+}
+
+header a img {
+  height: 15vh;
+  width: 15vw;
+  margin-top: 4%;
+}
+
+main {
+  height: 50vh;
+}
+
+main .form-box {
+  background-color: honeydew;
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  padding: 5px;
+}
+
+main .form-box .button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0  20px 9px #ff61241f;
+          box-shadow: 0 0  20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+main .form-box .button-box .btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#a9b3d6), to(#c2cffc));
+  background: linear-gradient(to right, #a9b3d6, #c2cffc);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main .form-box .button-box .toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  color: #4A6842;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c2cffc), to(#a9b3d6));
+  background: linear-gradient(180deg, #c2cffc 0%, #a9b3d6 100%);
+  height: 20vh;
+}
+
+footer img {
+  height: 15vh;
+  width: 15vw;
+  margin: 2% 1%;
+}
+/*# sourceMappingURL=register.css.map */
