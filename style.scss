@@ -30,7 +30,7 @@
             .nav-links {
                position: absolute;
                left: 20%;
-               top: 7%;
+               top: 9%;
               //background-color: $main-color;
              // opacity: 0.9;
              // width: 100%;
@@ -247,6 +247,9 @@ footer {
         
     }
     div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         a {
             margin-right: 0.7rem;
             text-decoration: none; 
